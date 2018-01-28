@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Demographics vs Health Risk Correlations</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+	</head>
+	<body>
+		<div class="chart">
+			<h1>Demographics vs Health Risk Correlations</h1>
+
+			<!--include the graph which is in a separate iframe-->
+			<iframe src="http://miriamberkowitz.com/visualizations/DemogRisk/" width="1000" height="800"></iframe>
+			</div>
+
+		<div class="analysis">
+			<h3>Description</h3>
+				<p>This graph shows three different sets of demographics vs health risks based on 2014 U.S. Census Bureau and the 2014 Behavioral Risk Factor Surveillance System.
+							The three scatter plots are all contained within a single graph, and the user can select any of the x-axes to see the specific data. Data for each
+							U.S. state is plotted, along with details when the user points at a state.
+				</p>
+				<p>The three sets of data are:</p>
+				<ol>
+					<li>Percent living in poverty vs tobacco use</li>
+					<li>Percent who are US-born citizens vs alcohol use (defined as 1 drink in the last 30 days)</li>
+					<li>Percent who are US-born citizens vs seatbelt use.</li>
+				</ol>
+			<h3>User Instructions</h3>
+			<ul>
+				<li>Select any of the X-Axis labels to see other data. </li>
+				<li>Note that the Y-Axis labels are not selectable, but will be bold-faced when their corresponding X-axis is selected. </li>
+				<li>Point the mouse at a state, and the details for that state will be displayed in a box until the mouse is moved. This works best when
+				pointing toward the bottom of the circle.</li>
+			</ul>
+			<h3>Analysis</h3>
+			<ul>
+				<li>The poverty demographic and health risk of having at least one alcoholic drink the past 30 days had a correlation of -0.534. This suggests
+				a negative correlation. It appears, in general, that states with wealthier people were more likely to have people who drink alcohol. </li>
+				<li>The demographic of US citizens who were born in the US and health risk of using tobacco had a correlation of 0.593.
+					This suggests a positive correlation. States with more people who are US-born citizens are more likely to have more tobacco users.
+				<li>The demographic of US citizens who were born in the US and health risk of wearing seatbelts had a correlation of -0.504. This suggests
+				a negative correlation. States with more people who are US-born citizens have a higher incidence of people not wearing seatbelts. </li>
+				<li>Note: The percent of US-born citizens in Puerto Rico was derived based on the number of US citizens born either in the US or in Puerto Rico.</li>
+			</ul>
+
+
+		</div>
+  </body>
+</html>
