@@ -1,7 +1,7 @@
 # DemogD3
 Uses D3 to chart demographics vs health risk factors. 
 The chart itself is in an iframe. That website reads the data files and uses D3 to create the graph with three separate scatter plots
-within one chart. State abbreviations are displayed within each circle of the scatter plot. A tooltip shows the state's detailed data when the mouse is over a particular circle.
+within one chart. State abbreviations are displayed within each circle of the scatter plot. A tooltip shows the state's detailed data when the mouse is over a particular circle. As the user switches between the three plots, the axes are redrawn with appropriate scale and the matching data is displayed.
 
 
 Description
