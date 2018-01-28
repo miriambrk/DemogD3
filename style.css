@@ -13,59 +13,7 @@
   opacity: 0.3;
 }
 
-.tooltip {
-  position: absolute;
-  width: 135px;
-  height: 60px;
-  padding: 2px;
-  padding-top: 8px;
-  font: 12px sans-serif;
-  color: white;
-  text-align: center;
-  background: #551aaf;
-  border: 0;
-  border-radius: 10px;
-}
 
-.axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #551aaf;
-  text-anchor: middle;
-}
-
-.y-axis-text {
-  font-family: sans-serif;
-  fill: #551aaf;
-  text-anchor: middle;
-}
-
-.y-unselected {
-  font-weight: lighter;
-}
-
-.y-selected {
-  font-weight: bold;
-}
-
-.active {
-  font-weight: bold;
-  fill: #551aaf;
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.inactive {
-  font-weight: lighter;
-  fill: #551aaf;
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.inactive:hover {
-  fill: #e75480;
-  cursor: pointer;
-}
 
 .analysis {
   font-family: sans-serif;
